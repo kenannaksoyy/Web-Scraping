@@ -1,0 +1,60 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/asama4.css') }}">
+
+<h1>AŞAMA 4</h1>
+<div class="a">
+	<div class="c">
+		<h2>Skorlar</h2>
+		<div class="d">
+			<pre>{{ data1 }}</pre>
+		</div>
+		<div class="d">
+			<pre>{{ data2 }}</pre>
+		</div>
+		<div class="d">
+			<pre>{{ data3 }}</pre>
+		</div>
+		<div class="d">
+			<pre>{{ data4 }}</pre>
+		</div>
+	</div>
+	<div class="b">
+		<h2>Alt URL Ağaç Yapısı</h2>
+		<div class="c">
+			<div class="d">
+				<pre>{{ data5 }}</pre>
+			</div>
+			<div class="c">
+				<div class="d">
+					<pre>{{ data6 }}</pre>
+				</div>
+				<div class="d">
+					<pre>{{ data7 }}</pre>
+				</div>
+				<div class="d">
+					<pre>{{ data8 }}</pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="b">
+		<h2>Ortak geçenlerin frekansları</h2>
+		<div class="c">
+			<div class="d">
+				<h2>Ana URL - {{ n1 }} kelime</h2>
+				<pre>{{ data9 }}</pre>
+			</div>
+			<div class="d">
+				<h2>1. Alt URL - {{ n2 }} kelime</h2>
+				<pre>{{ data10 }}</pre>
+			</div>
+			<div class="d">
+				<h2>2. Alt URL - {{ n3 }} kelime</h2>
+				<pre>{{ data11 }}</pre>
+			</div>
+			<div class="d">
+				<h2>3. Alt URL - {{ n4 }} kelime</h2>
+				<pre>{{ data12 }}</pre>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,8 @@
+div.a {
+  display: flex;
+}
+
+div.b {
+  font-size: 18px;
+  flex-grow: 1;
+}
